@@ -202,10 +202,11 @@ task WMGame "Web & Mobile Game" {
     responsible dev1
     depends WMGame.tback.tBEd
     task evaluar "Evaluar Proveedores de Nube" {
-    effort 7d
-    allocate dev1, dev2
+      effort 7d
+      allocate dev1, dev2
+    }
     task elegir "Elegir Proveedor de Nube" {
-      effort 1d
+      effort 3d
       allocate dev3
       depends WMGame.despliegueNube.evaluar
     }
