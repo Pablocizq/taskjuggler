@@ -184,7 +184,7 @@ task WMGame "Web & Mobile Game" {
       allocate boss
       allocate dev2
       actual:effort 15d
-      minstart 2024-06-01-00:00-+0200
+      minstart 2024-06-01
       journalentry 2023-04-13 "Problems with the planned dates" {
         author boss
         alert red
