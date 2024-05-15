@@ -112,7 +112,7 @@ task WMGame "Web & Mobile Game" {
       actual:effort 11d
       allocate dev1, dev2
       depends WMGame.tback.tBEd
-      journalentry 2023-03-28 "Game logic completed before deadline" {
+      journalentry 2024-06-28 "Game logic completed before deadline" {
         author boss
         alert green
         summary "The team has ended the game logic before deadline."
@@ -134,7 +134,7 @@ task WMGame "Web & Mobile Game" {
       effort 9d
       actual:effort 15d
       allocate dev3
-      journalentry 2023-04-11 "Problems with the GUI design tool" {
+      journalentry 2024-06-18 "Problems with the GUI design tool" {
         author dev3
         alert yellow
         summary "The tool used for the GUI design has given me a lot of problems. I recommend to look for other one."
@@ -185,7 +185,7 @@ task WMGame "Web & Mobile Game" {
       allocate dev2
       actual:effort 15d
       # minstart 2024-06-01
-      journalentry 2023-04-13 "Problems with the planned dates" {
+      journalentry 2023-06-03 "Problems with the planned dates" {
         author boss
         alert red
         summary "The whole team asiigned to this task has a trip to visit a new client from May 7th to May 12th. Needed to check if the project can be finished on time or it is necessary to reasign efforts."
