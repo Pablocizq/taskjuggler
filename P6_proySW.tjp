@@ -6,7 +6,7 @@
  * Autor: Pablo Calvo Izquierdo
  */
 
-project pSix "Web Game"  2023-03-15 +2.5m {
+project pSix "Web Game"  2024-05-15 +2.5m {
   # Set the default time zone for the project. If not specified, UTC
   # is used.
   timezone "Europe/Paris"
@@ -20,7 +20,7 @@ project pSix "Web Game"  2023-03-15 +2.5m {
   # the project reports. If not specified, the current day will be
   # used, but this will likely be outside of the project range, so it
   # can't be seen in the reports.
-  now 2023-04-15-13:00
+  now 2024-05-15-13:00
   # The currency for all money values is the US Dollar.
   currency "EUR"
 
@@ -161,7 +161,7 @@ task WMGame "Web & Mobile Game" {
       effort 10d
       actual:effort 14d
       allocate dev4
-      journalentry 2023-04-11 "Problems with the GUI design tool" {
+      journalentry 2024-05-15 "Problems with the GUI design tool" {
         author dev3
         alert yellow
         summary "The tool used for the GUI design has given me a lot of problems. I recommend to look for other one."
@@ -184,7 +184,7 @@ task WMGame "Web & Mobile Game" {
       allocate boss
       allocate dev2
       actual:effort 15d
-      minstart %{2024-06-01 + 1m}
+      # minstart 2024-06-01
       journalentry 2023-04-13 "Problems with the planned dates" {
         author boss
         alert red
